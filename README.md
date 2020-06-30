@@ -1,22 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/github-octolytics.svg?longCache=True)](https://pypi.org/project/github-octolytics/)
-[![](https://img.shields.io/pypi/v/github-octolytics.svg?maxAge=3600)](https://pypi.org/project/github-octolytics/)
-[![Travis](https://api.travis-ci.org/andrewp-as-is/github-octolytics.py.svg?branch=master)](https://travis-ci.org/andrewp-as-is/github-octolytics.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/github-octolytics.svg?maxAge=3600)](https://pypi.org/project/github-octolytics/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/github-octolytics.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/github-octolytics.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install github-octolytics
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`github_octolytics.get(url)` |make GET request and return a dictionary with octolytics data
-`github_octolytics.parse(html)` |parse a html string and return a dictionary with octolytics data
 
 #### Examples
 ```python
@@ -34,5 +28,5 @@ function|`__doc__`
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

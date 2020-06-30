@@ -1,14 +1,7 @@
-from setuptools import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='github-octolytics',
-    version='2019.10.27',
-    install_requires=[
-        'Requests',
-        'public',
-        'setuptools',
-    ],
-    packages=[
-        'github_octolytics',
-    ],
+    install_requires=open('requirements.txt').read().splitlines(),
+    packages=setuptools.find_packages()
 )
